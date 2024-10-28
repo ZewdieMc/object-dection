@@ -1,0 +1,11 @@
+# Train/val/test sets (required)
+train: ./dataset/train/images  # Directory of training images
+# val: ./dataset/val/images  # Directory of validation images
+val: ./dataset/test/images  # Directory of test images (optional)
+
+
+# Number of classes in your dataset (required)
+nc: 3  # Example: 3 classes (bird, bike, car)
+
+# Class names (required)
+names: [ 'bird', 'bike', 'car' ]  # Class names in the order of their IDs
